@@ -17,7 +17,7 @@ body{
 }
 
 .contener{
-    width:800px
+    width:700px
 }
 
 .contener .main{
@@ -113,7 +113,7 @@ body{
 .contener .main .subscripe .sign-up-ptn a{
     background-color: hsl(71, 73%, 54%);
     color: white;
-    padding: 20px 100px;
+    padding: 15px 100px;
     text-decoration: none;
     border-radius: 5px;
     -webkit-border-radius: 5px;
@@ -121,6 +121,8 @@ body{
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
     font-weight: bold;
+    font-size: 16px;
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.300);
 }
 
 .contener .main .why-us{
