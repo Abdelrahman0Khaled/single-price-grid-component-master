@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Karla', sans-serif;
+
+}
+
+body{
+    background-color: hsl(204, 43%, 93%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contener{
+    width:800px
+}
+
+.contener .main{
+    display: grid;
+    /* grid-template-rows: 1fr 1fr; */
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "join join" "subs abus" ;
+    box-shadow: 1px 1px 20px rgba(4, 42, 54, 0.100);
+}
+
+.contener .main .join-side{
+    grid-area: join;
+    background-color: white;
+    padding: 30px 30px 20px 30px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+
+}
+
+.contener .main .join-side .main-head-1{
+    color: hsl(179, 62%, 43%);
+    font-family: 'Karla', sans-serif;
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-bottom: 30px;
+
+}
+
+.contener .main .join-side .main-head-2{
+    color: hsl(71, 73%, 54%);
+    font-family: 'Karla', sans-serif;
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.contener .main .join-side .parghraph{
+    color: lightgray;
+    font-size: 17px;
+    font-family: 'Karla', sans-serif;
+    margin-bottom: 20px;
+    line-height: 1.5;
+
+}
+
+
+.contener .main .subscripe{
+    background-color: hsl(179, 62%, 43%);
+    padding: 30px;
+    grid-area: subs;
+    border-bottom-left-radius: 10px;
+
+}
+.contener .main .subscripe .main-sub-1{
+    color:white;
+    font-family: 'Karla', sans-serif;
+    font-size: 1.3em;
+    margin-bottom: 20px;
+
+}
+
+.contener .main .subscripe .price{
+    color: white;
+    font-family: 'Karla', sans-serif;
+    font-weight: bold;
+    font-size: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+}
+
+.contener .main .subscripe .price .texe{
+    font-size: 16px;
+    font-weight: 100;
+    margin-left: 10px;
+    color: lightgray;
+}
+
+.contener .main .subscripe .discrip{
+    color: white;
+    font-family: 'Karla', sans-serif;
+    margin-bottom: 30px;
+    font-size: 17px;
+
+}
+.contener .main .subscripe .sign-up-ptn{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.contener .main .subscripe .sign-up-ptn a{
+    background-color: hsl(71, 73%, 54%);
+    color: white;
+    padding: 20px 100px;
+    text-decoration: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    font-weight: bold;
+}
+
+.contener .main .why-us{
+    background-color: hsla(179, 62%, 43%, 0.700);
+    padding: 30px;
+    grid-area: abus;
+    border-bottom-right-radius: 10px;
+
+
+}
+
+.contener .main .why-us .main-us{
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+.contener .main .why-us .us-paragraph{
+    color: hsl(204, 43%, 93%);
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 1.4;
+}
+
